@@ -1,0 +1,312 @@
+@import "bower_components/inuit-defaults/settings.defaults";
+@import "bower_components/inuit-responsive-settings/settings.responsive";
+
+@import "bower_components/inuit-functions/tools.functions";
+@import "bower_components/inuit-mixins/tools.mixins";
+@import "bower_components/inuit-responsive-tools/tools.responsive";
+
+@import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+@import "bower_components/inuit-images/base.images";
+
+@import "bower_components/inuit-reset/generic.reset";
+
+@import "bower_components/inuit-page/base.page";
+
+
+$inuit-enable-layout--tiny:     true;
+$inuit-enable-layout--small:    true;
+$inuit-enable-layout--large:    true;
+@import "bower_components/inuit-layout/objects.layout";
+
+@import "bower_components/inuit-widths/trumps.widths";
+@import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
+
+html{
+    color: #333;
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+    @media print{
+        font-size: 10px;
+    }
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.wrapper{
+    display: table;
+    table-layout: fixed;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.header{
+    display: table-row;
+}
+.content{
+    display: table-row;
+    height: 100%;
+}
+.footer{
+    display: table-cell;
+}
+
+
+%row{
+    display: block;
+    padding-left: 12px;
+    padding-right: 12px;
+    @include media-query(desk){
+        padding-left: 0;
+        padding-right: 0;
+    }
+    &__inside{
+        display: block;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+
+    &__left{
+        font-weight: bold;
+    }
+}
+
+.header{
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    @extend %row;
+    background-color: #3b5998;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    &__inside{
+        @extend %row__inside;
+    }
+    &__name{
+        line-height: 40px;
+        @media print{
+            line-height: 24px;
+        }
+    }
+    &__name-label{
+        font-size: 20px;
+        vertical-align: top;
+        font-weight: bold;
+        @media print{
+            font-size: 15px;
+        }
+    }
+    &__infos{
+        font-size: 14px;
+        line-height: 20px;
+        @media print{
+            line-height: 15px;
+            font-size: 11px;
+        }
+    }
+
+    &__job{
+        line-height: 40px;
+        margin-bottom: -24px;
+        
+        @include media-query(palm){
+            text-align: center;
+        }
+        @include media-query(lap-and-up){
+            margin-top: 0;
+            text-align: left;
+            margin-bottom: 0;
+        }
+        @media print{
+            line-height: 28px;
+        }
+    }
+    &__job-label{
+        font-size: 40px;
+        display: block;
+        font-weight: bold;
+        @media print {
+            font-size: 24px;
+        }
+    }
+    &__job-spe{
+        font-size: 20px;
+        vertical-align: baseline;
+        display: block;
+        font-weight: bold;
+        @media print {
+            font-size: 16px;
+        }
+    }
+
+    &__img{
+        width: 85px;
+        height: 85px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        @media print{
+            display: none;
+        }
+        @include media-query(desk){
+            display: block;
+            position: relative;
+            top: 0;
+            right: 0;
+            float: right;
+        }
+    }
+}
+
+.section-title{
+    @extend %row;
+
+    margin-top: 12px;
+    @media print{
+        margin-top: 0;
+        &--br-before{
+            page-break-before: always;
+        }
+    }
+
+    &__inside{
+        @extend %row__inside;
+        position: relative;
+        color: #3b5998;
+        text-transform: uppercase;
+        padding: 6px 0;
+        font-size: 16px;
+        @media print{
+            font-size: 13px;
+        }
+
+        border-bottom: 1px solid #d8deea;
+
+    }
+}
+
+.section{
+    @extend %row;
+    @media print{
+        &--br-after{
+            page-break-after: always;
+        }
+    }
+    
+    &__inside{
+        @extend %row__inside;
+        padding: 10px 0;
+    }
+}
+
+.exp{
+
+    & + & {
+        margin-top: 30px;
+        @media print{
+            margin-top: 10px;
+        }
+    }
+    
+    &__date{
+        @extend %row__left;
+    }
+
+    &__job{
+        display: inline;
+        font-weight: bold;
+    }
+
+    &__context{
+        display: inline;
+        color: #888888;
+        font-weight: bold;
+    }
+    &__company{
+        text-transform: uppercase;
+    }
+    &__tasks{
+        list-style-position: inside;
+        a{
+            color: #3b5998;
+            text-decoration: underline;
+            @media print{
+                text-decoration: none;
+            }
+        }
+    }
+    
+    &__task{
+        list-style-type: square;
+    }
+
+}
+
+
+.skill{
+    & + &{
+        margin-top: 10px;
+    }
+    &__title{
+        @extend %row__left;
+    }
+
+}
+
+
+.formation{
+    & + &{
+        margin-top: 10px;
+    }
+   &__date{
+        @extend %row__left;
+    }
+}
+
+.footer{
+
+    &__inside{
+        background-color: #3b5998;
+        color: #fff;
+        text-align: center;
+
+        @media print{
+            background-color: transparent;
+            color: #888888;
+        }
+
+        @include media-query(palm){
+            margin-top: 12px;
+            padding: 12px;
+            text-align: left;
+        }
+
+        a{
+            text-decoration: underline;
+            @media print{
+                text-decoration: none;
+            }
+        }
+    }
+    &__elem{
+        display: inline;
+        & + &{
+            &:before{
+                content: ' | ';
+                display: inline;
+            }
+        }
+        @include media-query(palm){
+            display: block;
+        }
+
+    }
+}
