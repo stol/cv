@@ -25,7 +25,7 @@
                     <div class="layout__item palm-1/1 lap-1/4 2/10">
                         <h1 class="header__name"><span class="header__name-label">Alexis Faye</span></h1>
                         <p class="header__infos">
-                            33 ans | Paris 20e<br/>
+                            34 ans | Paris 20e<br/>
                             alexis.faye@hotmail.fr
                         </p>
                     </div><!--
@@ -107,14 +107,6 @@
                             </div>
                         </div>
                     <?php endforeach ?>
-            </section>
-
-            <h2 class="section-title"><span class="section-title__inside">Références (Web)</span></h2>
-
-            <section class="section">
-                <div class="section__inside">
-                    Académie du Gout, terrafemina/debats, moi-citoyen.com, Skyrock, Intranet mondial BNP, Intranet Renault, Bourbon Online, Bourbon HR, Solabiol, Fondation Cetelem, Aurore, Grande Armée Conseil, La Bourse et la vie, Essilor, Librairies Fontaine, Goodgame, Persomobiles
-                </div>
             </section>
 
             <h2 class="section-title"><span class="section-title__inside">Hobbies</span></h2>
