@@ -3,16 +3,16 @@
 $experiences = [
     [
         'title' => '2014 / actuellement',
-        'job' => 'Frontend R&D, conception et bonnes pratiques',
+        'job' => 'Lead Développeur Frontend, R&D et conception',
         'company' => 'Pôle produit (Webedia)',
         'link' => 'https://www.academiedugout.fr',
         'area' => 'Paris',
         'tasks' => [
             'Contexte : le pôle produit gère les sites féminins du groupe: <a href="http://www.purepeople.com/" target="_blank">Purepeople</a>, <a href="http://www.puretrend.com/" target="_blank">Puretrend</a>, <a href="http://www.purebreak.com/" target="_blank">Purebreak</a>, <a href="http://www.ozap.com/" target="_blank">Puremedia</a>, <a href="http://www.terrafemina.com/" target="_blank">Terrafemina</a>, <a href="http://www.chartsinfrance.net/" target="_blank">Purecharts</a>, <a href="http://www.exponaute.com/" target="_blank">Exponaute</a>',
-            'Réalisation de prototypes pour tester des concepts fonctionnels/artistiques/techniques',
-            'Mise en place d\'une méthodologie frontend stricte commune aux sites, à base de BEM, d\'OOCSS, de grille, et de diverses conventions',
+            'Réalisation de prototypes fonctionnels, artistiques ou techniques',
+            'Développement d\'un <a href="https://github.com/webedia-udg/wgs" target="_blank">outil</a> à base de BEM, d\'OOCSS et de diverses conventions. Objectif : poser une structure et une méthodologie stricte, commune à tous les sites',
             'Participation à la conception des sites en lien étroit avec la direction artistique et la direction produit',
-            'Participation à la réalisation de la partie frontend des sites avec l\'équipe technique',
+            'Lead sur la partie frontend conjointement avec l\'équipe technique',
             'Tranferts de connaissances par l\'écriture d\'articles, par l\'exemple et par des démos',
             'Nombreuses contraintes : publicité, performance, UX, SEO, responsive, dialogue inter-pôle',
         ],
