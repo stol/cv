@@ -14,7 +14,7 @@ $experiences = [
             'Participation à la conception des sites en lien étroit avec la direction artistique et la direction produit',
             'Lead sur la partie frontend conjointement avec l\'équipe technique',
             'Tranferts de connaissances par l\'écriture d\'articles, par l\'exemple et par des démos',
-            'Nombreuses contraintes : publicité, performance, UX, SEO, responsive, dialogue inter-pôle',
+            'Nombreuses contraintes : publicité, performance, UX, SEO, responsive + RTL + multilingue, dialogue inter-pôle',
         ],
     ],[
         'title' => '2013 / 2014',
