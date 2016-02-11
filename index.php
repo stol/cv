@@ -32,7 +32,7 @@
                  --><div class="layout__item palm-1/1 lap-2/4 7/10">
 
                         <h2 class="header__job">
-                            <span class="header__job-label">Développeur Fullstack JS/PHP</span>
+                            <span class="header__job-label">CTO</span>
                             <span class="header__job-spe">Spécialisation Frontend/Architecture/Méthodes</span>
                         </h2>
                     </div><!--
