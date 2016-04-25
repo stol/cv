@@ -8,7 +8,12 @@ $experiences = [
         'link' => 'http://www.750g.com',
         'area' => 'Paris',
         'tasks' => [
-            'Sites du pôle : <a href="http://www.750g.com" target="_blank">750g.com</a>, <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> et <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a>',
+            '<a href="http://www.750g.com" target="_blank">750g.com</a> : site de recettes de cuisine à fort traffic',
+            '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> et <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a> : sites e-commerce de recettes premium',
+            'Gestion d\'une équipe de 4 développeurs en agile',
+            'Gestion gestion des relations le pôle food',
+            'Gestion gestion des relations avec l\'exploitation (hosting)',
+            'Stack technique : Varnish, Nginx, Apache, Sphinx, Linux, PHP, Symfony2, MySql, Redis', 
         ],
     ],[
         'title' => '2014 / 2015',
