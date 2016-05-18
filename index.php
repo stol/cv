@@ -33,7 +33,7 @@
 
                         <h2 class="header__job">
                             <span class="header__job-label">CTO</span>
-                            <span class="header__job-spe">Spécialisation Frontend/Architecture/Méthodes</span>
+                            <span class="header__job-spe">Site à fort traffic / e-commerce</span>
                         </h2>
                     </div><!--
                  --><div class="layout__item palm-1/1 lap-1/4 1/10">
