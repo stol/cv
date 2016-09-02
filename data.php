@@ -148,7 +148,7 @@ $skills = [
         'detail' => 'Design patterns, MVC, versioning, CSS pre/post processing, OOCSS, Responsive Web Design, UX, tests utilisateurs, Single Page Application, dependency management, task/builder, NoSql, caching, scaling, SEO, méthodes agiles, expressions régulières, accessibilité/standards, problématiques navigateurs, performance web',
     ],[
         'title' => 'Outils',
-        'detail' => 'Sublime Text, Git, Bower, SVN, composer, casperJS, npm, grunt/gulp, Microsoft Office, Suite Adobe, FileMaker, Vi(m)',
+        'detail' => 'Sublime Text, Git, Bower, SVN, composer, casperJS, npm, grunt/gulp, Microsoft Office, Suite Adobe, Vi(m)',
     ],[
         'title' => 'Langues',
         'detail' => 'Anglais (fluent), Allemand (scolaire)',
@@ -163,7 +163,7 @@ unset($skill);
 $formations = [
     [
         'title' => 'Actuellement',
-        'detail' => 'Veille technologique, conférences récurrentes (Parisweb, Web Performance, ParisJS...) ou ponctuelles (dotJS/CSS...)',
+        'detail' => 'Veille technologique, conférences (Parisweb, ParisJS, dotJS/CSS...)',
     ], [
         'title' => '2003',
         'detail' => 'DEUST multimedia et réseaux, gestion et réalisation (Université Paris II)',
