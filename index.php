@@ -122,7 +122,7 @@
 
         <footer class="footer">
             <div class="footer__inside">
-                <span class="footer__elem">Site web : <a href="<?php echo PHP_SELF; ?>">alexis-faye.fr</a></span>
+                <span class="footer__elem">Site web : <a href="<?php echo $_SERVER['PHP_SELF']; ?>">alexis-faye.fr</a></span>
                 <span class="footer__elem">twitter : <a href="https://twitter.com/Stolalex" target="_blank">@stolalex</a></span>
                 <span class="footer__elem">github : <a href="https://github.com/stol" target="_blank">stol</a></span>
                 <span class="footer__elem">Veille technologique : <a href="https://www.diigo.com/user/stolalex/" target="_blank">diigo.com/user/stolalex</a></span>

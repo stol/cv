@@ -10,10 +10,13 @@ $experiences = [
         'tasks' => [
             '<a href="http://www.750g.com" target="_blank">750g.com</a> : site de recettes de cuisine à fort traffic',
             '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> et <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a> : sites e-commerce de recettes premium',
-            'Gestion d\'une équipe de 4 développeurs en agile',
-            'Gestion gestion des relations le pôle food',
-            'Gestion gestion des relations avec l\'exploitation (hosting)',
-            'Stack technique : Varnish, Nginx, Apache, Sphinx, Linux, PHP, Symfony2, MySql, Redis', 
+            'Management d\'une équipe de 4 développeurs, dont un recrutement',
+            'Reprise en main d\'une refonte applicative intégrale vers symfony2 + internalisation de l\'exploitation, réalisée à 90% l\'année précédente par le précédent CTO sous de grosses contraintes de temps',
+            'Audit des performances et de la dette technique, suivis d\'actions côté applicatif, méthodologie. Évolution de l\'architecture',
+            'Mise en place de la méthodologie agile scrum',
+            'Mise en place de process de développements : gitflow, plateforme de QA par ticket, code reviews, intégration continue',
+            'Gestion des relations avec l\'équipe d\'exploitation et les prestataires',
+            'Stack technique : HAProxy, Varnish, Nginx, Apache, Redis, sphinx, PHP, Symfony2, MySql, RabbitMQ', 
         ],
     ],[
         'title' => '2014 / 2015',
@@ -42,9 +45,9 @@ $experiences = [
             'Conception du site collègiale avec la directon artistique et le produit',
             'Développement d\'une webapp de vidéo interractives et responsives, en angular/sf2/mongoDB',
             'Forte utilisation de méthodologies BEM/OCSS et de Sass pour l\'architecture CSS',
-            'Outils notamment utilisés : Synfony2, angularJS, Sass, jQuery, bower, grunt, nodeJS, angularsJS, mongodb, mysql',
             'Utilisation d\'un gitflow avec feature/fix branches et releases hebdomadaires, sur github',
             'Mise en place de tests fonctionnels automatisés via casperJS',
+            'Stack technique : Synfony2, angularJS, Sass, jQuery, bower, grunt, nodeJS, angularsJS, mongodb, mysql',
         ],
     ],[
         'title' => '2012 / 2013',
