@@ -36,11 +36,11 @@ $experiences = [
     ],[
         'title' => '2013 / 2014',
         'job' => 'Lead Développeur Frontend',
-        'company' => 'Académie du Goût (Webedia)',
+        'company' => 'Pôle food (Webedia)',
         'link' => 'https://www.academiedugout.fr',
         'area' => 'Paris',
         'tasks' => [
-            'Contexte : site développé de zéro, sur le thème de la cuisine des grands chefs.',
+            '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> : site développé de zéro, sur le thème de la cuisine des grands chefs.',
             'Architecture et développement de toute la partie frontend du site <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a>, en responsive et mobile first',
             'Conception du site collègiale avec la directon artistique et le produit',
             'Développement d\'une webapp de vidéo interractives et responsives, en angular/sf2/mongoDB',
