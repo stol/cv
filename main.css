@@ -4,7 +4,7 @@
  *
  * github.com/inuitcss | inuitcss.com
  */
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -28,7 +28,8 @@ body {
    ========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
 article,
@@ -40,6 +41,7 @@ footer,
 header,
 hgroup,
 main,
+menu,
 nav,
 section,
 summary {
@@ -80,7 +82,7 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background-color: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -699,7 +701,7 @@ html {
 /**
  * Responsive width classes based on your responsive settings.
  */
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 44.9375em) {
   /**
    * Whole.
    */
@@ -840,7 +842,7 @@ html {
 
   [class~="palm-11/12"] {
     width: 91.6666666% !important; } }
-@media screen and (min-width: 720px) and (max-width: 1023px) {
+@media screen and (min-width: 45em) and (max-width: 63.9375em) {
   /**
    * Whole.
    */
@@ -981,7 +983,7 @@ html {
 
   [class~="lap-11/12"] {
     width: 91.6666666% !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 45em) {
   /**
    * Whole.
    */
@@ -1122,7 +1124,7 @@ html {
 
   [class~="lap-and-up-11/12"] {
     width: 91.6666666% !important; } }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 63.9375em) {
   /**
    * Whole.
    */
@@ -1263,7 +1265,7 @@ html {
 
   [class~="portable-11/12"] {
     width: 91.6666666% !important; } }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64em) {
   /**
    * Whole.
    */
@@ -1440,7 +1442,7 @@ a {
   display: block;
   padding-left: 12px;
   padding-right: 12px; }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 64em) {
     .header, .section-title, .section {
       padding-left: 0;
       padding-right: 0; } }
@@ -1479,10 +1481,10 @@ a {
   .header__job {
     line-height: 40px;
     margin-bottom: -24px; }
-    @media screen and (max-width: 719px) {
+    @media screen and (max-width: 44.9375em) {
       .header__job {
         text-align: center; } }
-    @media screen and (min-width: 720px) {
+    @media screen and (min-width: 45em) {
       .header__job {
         margin-top: 0;
         text-align: left;
@@ -1515,7 +1517,7 @@ a {
     @media print {
       .header__img {
         display: none; } }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 64em) {
       .header__img {
         display: block;
         position: relative;
@@ -1562,7 +1564,8 @@ a {
 .exp__company {
   text-transform: uppercase; }
 .exp__tasks {
-  list-style-position: inside; }
+  list-style-position: outside;
+  padding-left: 20px; }
   .exp__tasks a {
     color: #3b5998;
     text-decoration: underline; }
@@ -1586,7 +1589,7 @@ a {
     .footer__inside {
       background-color: transparent;
       color: #888888; } }
-  @media screen and (max-width: 719px) {
+  @media screen and (max-width: 44.9375em) {
     .footer__inside {
       margin-top: 12px;
       padding: 12px;
@@ -1601,7 +1604,7 @@ a {
   .footer__elem + .footer__elem:before {
     content: ' | ';
     display: inline; }
-  @media screen and (max-width: 719px) {
+  @media screen and (max-width: 44.9375em) {
     .footer__elem {
       display: block; } }
 
