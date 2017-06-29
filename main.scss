@@ -234,7 +234,8 @@ a{
         text-transform: uppercase;
     }
     &__tasks{
-        list-style-position: inside;
+        list-style-position: outside;
+        padding-left: 20px;
         a{
             color: #3b5998;
             text-decoration: underline;
