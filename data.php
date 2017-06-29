@@ -10,16 +10,13 @@ $experiences = [
         'tasks' => [
             '<a href="http://www.750g.com" target="_blank">750g.com</a> : site de recettes de cuisine à fort traffic',
             '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> et <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a> : sites e-commerce de recettes premium',
-            'Management d\'une équipe de 4 développeurs, dont deux recrutement',
+            'Management d\'une équipe de 4 développeurs, dont un recrutement',
             'Reprise en main d\'une refonte applicative intégrale vers symfony2 + internalisation de l\'exploitation, réalisée à 90% l\'année précédente par le précédent CTO sous de grosses contraintes de temps',
             'Audit des performances et de la dette technique, suivis d\'actions côté applicatif, méthodologie. Évolution de l\'architecture',
-            'Création et suivi de la roadmap'
             'Mise en place de la méthodologie agile scrum',
-            'Mise en place de process de développements : gitflow, système de ticketing, plateforme de QA par ticket, code reviews, tests automatiques, intégration continue',
-            'Migration de d\'un site de 3 ans d\'existence de symfony2 vers symfony3',
+            'Mise en place de process de développements : gitflow, plateforme de QA par ticket, code reviews, intégration continue',
             'Gestion des relations avec l\'équipe d\'exploitation et les prestataires',
-            'Migration de diverses infrastructures (internalisations, nouvelles machines)'
-            'Stack technique : HAProxy, Varnish, Nginx, Apache, Redis, sphinx, PHP, Symfony2/3, MySql, RabbitMQ, gitlab',
+            'Stack technique : HAProxy, Varnish, Nginx, Apache, Redis, sphinx, PHP, Symfony2, MySql, RabbitMQ', 
         ],
     ],[
         'title' => '2014 / 2015',
