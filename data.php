@@ -3,6 +3,8 @@
 $experiences = [
     [
         'title' => '2015 / actuellement',
+        'start' => "2015-11-01",
+        'end' => null,
         'job' => 'Directeur technique',
         'company' => 'Pôle food (Webedia)',
         'link' => 'http://www.750g.com',
@@ -23,6 +25,8 @@ $experiences = [
         ],
     ],[
         'title' => '2014 / 2015',
+        'start' => "2014-11-01",
+        'end' => "2015-11-01",
         'job' => 'Lead Développeur Frontend, R&D et conception',
         'company' => 'Pôle produit (Webedia)',
         'link' => 'https://www.academiedugout.fr',
@@ -38,6 +42,8 @@ $experiences = [
         ],
     ],[
         'title' => '2013 / 2014',
+        'start' => "2013-10-01",
+        'end' => "2014-11-01",
         'job' => 'Lead Développeur Frontend',
         'company' => 'Pôle food (Webedia)',
         'link' => 'https://www.academiedugout.fr',
@@ -54,6 +60,8 @@ $experiences = [
         ],
     ],[
         'title' => '2012 / 2013',
+        'start' => "2012-09-01",
+        'end' => "2013-09-01",
         'job' => 'Lead Développeur Frontend',
         'company' => 'Newsring (Webedia)',
         'link' => 'http://debats.terrafemina.com',
@@ -69,6 +77,8 @@ $experiences = [
         ],
     ],[
         'title' => '2011 / 2012',
+        'start' => "2011-03-01",
+        'end' => "2012-08-01",
         'job' => 'Développeur PHP/JS',
         'company' => 'Skyrock',
         'link' => 'http://www.skyrock.com',
@@ -84,6 +94,8 @@ $experiences = [
 
 
         'title' => '2008 / 2011',
+        'start' => "2008-03-01",
+        'end' => "2011-02-01",
         'job' => 'Développeur Web',
         'company' => 'Cosmic Communication</a>',
         'link' => 'http://agencecosmic.com',
@@ -98,6 +110,8 @@ $experiences = [
 
 
         'title' => '2006 / 2007',
+        'start' => "2006-10-01",
+        'end' => "2007-08-31",
         'job' => 'Chargé de Q/A et Opérations Spéciales',
         'company' => 'Pixtel',
         'link' => 'http://www.pixtel.fr',
@@ -110,6 +124,8 @@ $experiences = [
     ],[
 
         'title' => '2003 / 2006',
+        'start' => "2003-10-01",
+        'end' => "2006-09-01",
         'job' => 'Développeur Junior',
         'company' => 'Pixtel',
         'link' => 'http://www.pixtel.fr',
@@ -123,6 +139,8 @@ $experiences = [
 
 
         'title' => '2001 / 2003',
+        'start' => "2001-10-01",
+        'end' => "2003-09-01",
         'job' => 'Assistant Technique (apprentissage/alternance)',
         'company' => 'Pixtel',
         'link' => 'http://www.pixtel.fr',
@@ -181,3 +199,31 @@ foreach($formations as &$formation){
 }
 unset($formation);
 
+function dateDiff2Str($startParam, $endParam="today") { 
+    if (!$endParam){
+        $end = "today";
+    }
+
+    $start = $startParam instanceof DateTime ? $startParam : new DateTime($startParam);
+    $end = $endParam instanceof DateTime ? $endParam : new DateTime($endParam);
+    
+    $interval = $end->diff($start); 
+    $doPlural = function($nb,$str){
+        if ($str == "mois"){
+            return $str;
+        }
+        return $nb>1 ? $str . 's' : $str;
+    };
+    
+    // https://stackoverflow.com/questions/3216482/round-down-to-nearest-half-integer-in-php
+    $round = round($interval->m / 12 * 2) / 2;
+
+    $nbYears = $interval->y + $round;
+
+    if ($endParam == null){
+        return "depuis " . $nbYears . " " . $doPlural($nbYears, "an");
+    }
+
+    return $nbYears . " " . $doPlural($nbYears, "an");
+
+} 

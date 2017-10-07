@@ -25,7 +25,7 @@
                     <div class="layout__item palm-1/1 lap-1/4 2/10">
                         <h1 class="header__name"><span class="header__name-label">Alexis Faye</span></h1>
                         <p class="header__infos">
-                            35 ans | Paris 20e<br/>
+                            36 ans | Paris 20e<br/>
                             alexis.faye@hotmail.fr
                         </p>
                     </div><!--
@@ -55,7 +55,11 @@
                             <div class="layout--small">
 
                                 <div class="layout__item palm-1/1 lap-1/4 2/10">
-                                    <div class="exp__date"><?php echo $experience->title ?></div>
+                                    <?php /*<div class="exp__date"><?php echo $experience->title ?></div> */ ?>
+                                    <div class="exp__date"><?php
+                                        echo (new DateTime($experience->start))->format("Y");
+                                        echo ' (' . dateDiff2Str($experience->start, $experience->end) . ')';
+                                    ?></div>
                                 </div><!--
                              --><div class="layout__item palm-1/1 lap-3/4 8/10 ">
                                     <div class="exp__job"><?php echo $experience->job ?></div>
