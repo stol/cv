@@ -238,7 +238,11 @@ a{
         padding-left: 20px;
         a{
             color: #3b5998;
-            text-decoration: underline;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover{
+                text-decoration: underline;
+            }
             @media print{
                 text-decoration: none;
             }
@@ -311,3 +315,4 @@ a{
 
     }
 }
+

@@ -10,17 +10,23 @@ $experiences = [
         'link' => 'http://www.750g.com',
         'area' => 'Paris',
         'tasks' => [
-            '<a href="http://www.750g.com" target="_blank">750g.com</a> : site de recettes de cuisine à fort traffic, <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> et <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a> : sites e-commerce de recettes premium',
+            'Management d\'une équipe de 4 développeurs et 1 administrateur système. Deux recrutements : l\'un seul, l\'autre via cabinet',
+            'Gestion de <a href="http://www.750g.com" target="_blank">750g.com</a> : site communautaire, 45 millions PV/mois, dev sur mesure sous symfony',
+            'Gestion de <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> & <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a> : sites e-commerce en français/anglais, 1.6 million PV/mois, dev sur mesure sous symfony',
+            'Gestion de petits sites annexes tournant sous magento, wordpress ou PHP natif',
+            'Gestion d\'une plateforme infra comportant une trentaine de machines',
             'Prise de poste suite au départ du précédent CTO et de son lead dev',
-            'Management d\'une équipe de 4 développeurs, dont un recrutement',
-            'Reprise en main des projets en cours, dont une refonte de 750g.com vers symfony2',
-            'Audit des performances, de la dette technique et de la situation en général',
-            'Mise en place de la méthodologie agile scrum',
+            'Reprise en main des projets en cours, audit des performances, de la dette technique et de la situation en général',
+            'Mise en place de méthodes agiles (SCRUM)',
             'Mise en place de l\'intégration continue et des process associés (code reviews, plateforme de QA, tests unitaires & fonctionnels)',
-            'Évolution de l\'architecture applicative',
-            'Évolution de l\'infrastructure, en lien avec l\'équipe exploitation',
-            'Gestion des relations avec l\'équipe exploitation/hébergement et les prestataires',
-            'Stack technique : HAProxy, Varnish, Nginx, Apache, PHP, Redis, sphinx, Symfony2, MySql, RabbitMQ', 
+            'Finalisation d\'une refonte de 750g.com vers SF2 entamée par la précédente équipe',
+            'Préparation des sites pour les pics de traffic de Noël (traffic doublé, 14&nbsp;000 visiteurs simultanés le 24 décembre)',
+            'Internalisation du hosting de l\'académie, auparavant chez un prestataire d\'hébergement',
+            'Migrations diverses au fil du temps : PHP 5.6 vers PHP 7, SF2 vers SF3',
+            'Définition de l\'architecture applicative & matérielle (en lien avec l\'équipe exploitation)',
+            'Gestion les prestataires, notamment pour le site sous magento ou l\'ancien hosting de l\'académie',
+            'Définition et suivi de la roadmap technique',
+            '<b>Stack technique</b> : PHP, MySQL, Nginx, Apache, Redis, Symfony 2&nbsp;&&nbsp;3, HAProxy, Varnish, Sphinx, RabbitMQ, Behat, GitLab, JIRA', 
 
         ],
     ],[
@@ -28,17 +34,17 @@ $experiences = [
         'start' => "2014-11-01",
         'end' => "2015-11-01",
         'job' => 'Lead Développeur Frontend, R&D et conception',
-        'company' => 'Pôle produit (Webedia)',
+        'company' => 'Pôle glamour (Webedia)',
         'link' => 'https://www.academiedugout.fr',
         'area' => 'Paris',
         'tasks' => [
-            'Contexte : le pôle produit gère les sites féminins du groupe: <a href="http://www.purepeople.com/" target="_blank">Purepeople</a>, <a href="http://www.puretrend.com/" target="_blank">Puretrend</a>, <a href="http://www.purebreak.com/" target="_blank">Purebreak</a>, <a href="http://www.ozap.com/" target="_blank">Puremedia</a>, <a href="http://www.terrafemina.com/" target="_blank">Terrafemina</a>, <a href="http://www.chartsinfrance.net/" target="_blank">Purecharts</a>, <a href="http://www.exponaute.com/" target="_blank">Exponaute</a>',
+            'Interventions et/ou refontes HTML 5 responsive des différents sites du pôle féminin&nbsp;: <a href="http://www.purepeople.com/" target="_blank">Purepeople</a>, <a href="http://www.puretrend.com/" target="_blank">Puretrend</a>, <a href="http://www.purebreak.com/" target="_blank">Purebreak</a>, <a href="http://www.ozap.com/" target="_blank">Puremedia</a>, <a href="http://www.terrafemina.com/" target="_blank">Terrafemina</a>, <a href="http://www.chartsinfrance.net/" target="_blank">Purecharts</a>, <a href="http://www.exponaute.com/" target="_blank">Exponaute</a>',
             'Réalisation de prototypes fonctionnels, artistiques ou techniques',
-            'Développement d\'un <a href="https://github.com/webedia-udg/wgs" target="_blank">outil</a> à base de BEM, d\'OOCSS et de diverses conventions. Objectif : poser une structure et une méthodologie stricte, commune à tous les sites',
+            'Développement d\'un <a href="https://github.com/webedia-udg/wgs" target="_blank">outil</a> à base de BEM, d\'OOCSS et de diverses conventions. Objectif&nbsp;: poser une structure et une méthodologie stricte, commune à tous les sites',
             'Participation à la conception des sites en lien étroit avec la direction artistique et la direction produit',
             'Lead sur la partie frontend conjointement avec l\'équipe technique',
-            'Tranferts de connaissances par l\'écriture d\'articles, par l\'exemple et par des démos',
-            'Nombreuses contraintes : publicité, performance, UX, SEO, responsive + RTL + multilingue, dialogue inter-pôle',
+            'Transferts de connaissances par l\'écriture d\'articles, par l\'exemple et par des démos',
+            'Nombreuses contraintes&nbsp;: publicité, performance, UX, SEO, responsive + RTL + multilingue, dialogue inter-pôle',
         ],
     ],[
         'title' => '2013 / 2014',
@@ -49,14 +55,14 @@ $experiences = [
         'link' => 'https://www.academiedugout.fr',
         'area' => 'Paris',
         'tasks' => [
-            '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> : site développé de zéro, sur le thème de la cuisine des grands chefs.',
+            '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a>&nbsp;: site développé de zéro, sur le thème de la cuisine des grands chefs.',
             'Architecture et développement de toute la partie frontend du site <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a>, en responsive et mobile first',
             'Conception du site collègiale avec la directon artistique et le produit',
             'Développement d\'une webapp de vidéo interractives et responsives, en angular/sf2/mongoDB',
             'Forte utilisation de méthodologies BEM/OCSS et de Sass pour l\'architecture CSS',
             'Utilisation d\'un gitflow avec feature/fix branches et releases hebdomadaires, sur github',
             'Mise en place de tests fonctionnels automatisés via casperJS',
-            'Stack technique : Synfony2, angularJS, Sass, jQuery, bower, grunt, nodeJS, angularsJS, mongodb, mysql',
+            'Stack technique&nbsp;: Symfony2, angularJS, Sass, jQuery, bower, grunt, nodeJS, angularsJS, mongodb, mysql',
         ],
     ],[
         'title' => '2012 / 2013',
@@ -67,7 +73,7 @@ $experiences = [
         'link' => 'http://debats.terrafemina.com',
         'area' => 'Paris',
         'tasks' => [
-            'Contexte : site de débat communautaire (maintenant fermé), avec messagerie et UGC',
+            'Contexte&nbsp;: site de débat communautaire (maintenant fermé), avec messagerie et UGC',
             'Reprise en main et refonte de l\'intégralité de la partie frontend (templating/JS/CSS). Mise en place du preprocesseur Sass.',
             'Adaptation du site en Responsive Web Design',
             'Mise en place d\'un système de marque blanche, permettant de changer l\'apparence et les fonctionnalités du site en fonction de divers partenariats (tf1, eurosport...)',
@@ -84,9 +90,9 @@ $experiences = [
         'link' => 'http://www.skyrock.com',
         'area' => 'Paris',
         'tasks' => [
-            'Contexte : site à fort traffic (plateforme de blog de 33 millions de comptes à l\'époque)',
-            'JS : mise en place de bonnes pratiques (modules, AMD) et d\'un framework maison inspiré par certains concepts de facebook (primer & bootloader)',
-            'PHP : mise en place de bonnes pratiques (MVC, routing) et du code équivalent',
+            'Contexte&nbsp;: site à fort traffic (plateforme de blog de 33 millions de comptes à l\'époque)',
+            'JS&nbsp;: mise en place de bonnes pratiques (modules, AMD) et d\'un framework maison inspiré par certains concepts de facebook (primer & bootloader)',
+            'PHP&nbsp;: mise en place de bonnes pratiques (MVC, routing) et du code équivalent',
             'Transfert des connaissances via des présentations techniques et fonctionnelles',
             'Lead technique en petite équipe sur divers projets, dont la refonte des pages profil des utilisateurs, les albums photos ou encore la refonte de l\'espace d\'administration',
         ],
@@ -103,7 +109,7 @@ $experiences = [
         'tasks' => [
             'Développement d\'intranets, d\'extranets et de sites corporate. Contact principal des clients pour le suivi technique des projets et leur formation aux outils',
             'Développement d\'une application type e-commerce avec le framework Ruby on Rails',
-            'Administration de serveurs LAMP : installation et configuration d\'Apache et ses modules, de MySql ou encore de PHP. Gestion des environnement des dev/recette/prod',
+            'Administration de serveurs LAMP&nbsp;: installation et configuration d\'Apache et ses modules, de MySql ou encore de PHP. Gestion des environnement des dev/recette/prod',
             'Gestion administrative et technique des noms de domaines, configuration des DNS',
         ],
     ],[
@@ -163,7 +169,7 @@ $skills = [
         'detail' => 'Javascript, PHP5, Ruby, HTML5, CSS3, MySql, MongoDB, Bash Shell, C',
     ],[
         'title' => 'Environnements',
-        'detail' => 'Synfony2, AngularJS, jQuery, Rails3, node.js, Sass/Less, ExpressJS, inuit.css, bootstrap, MODx',
+        'detail' => 'Symfony2, AngularJS, jQuery, Rails3, node.js, Sass/Less, ExpressJS, inuit.css, bootstrap, MODx',
     ],[
         'title' => 'Concepts',
         'detail' => 'Design patterns, MVC, versioning, CSS pre/post processing, OOCSS, Responsive Web Design, UX, tests utilisateurs, Single Page Application, dependency management, task/builder, NoSql, caching, scaling, SEO, méthodes agiles, expressions régulières, accessibilité/standards, problématiques navigateurs, performance web',
@@ -212,7 +218,7 @@ function dateDiff2Str($startParam, $endParam="today") {
         if ($str == "mois"){
             return $str;
         }
-        return $nb>1 ? $str . 's' : $str;
+        return $nb>=2 ? $str . 's' : $str;
     };
     
     // https://stackoverflow.com/questions/3216482/round-down-to-nearest-half-integer-in-php
