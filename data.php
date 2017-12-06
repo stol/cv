@@ -10,22 +10,22 @@ $experiences = [
         'link' => 'http://www.750g.com',
         'area' => 'Paris',
         'tasks' => [
-            'Management d\'une équipe de 4 développeurs et 1 administrateur système. Deux recrutements : l\'un seul, l\'autre via cabinet',
+            'Management d\'une équipe de 5 développeurs + 1 administrateur système + 1 intervenant externe',
             'Gestion de <a href="http://www.750g.com" target="_blank">750g.com</a> : site communautaire, 45 millions PV/mois, dev sur mesure sous symfony',
             'Gestion de <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> & <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a> : sites e-commerce en français/anglais, 1.6 million PV/mois, dev sur mesure sous symfony',
-            'Gestion de petits sites annexes tournant sous magento, wordpress ou PHP natif',
-            'Gestion d\'une plateforme infra comportant une trentaine de machines',
+            'Gestion de sites annexes tournant sous magento, wordpress ou PHP natif',
+            'Gestion d\'une infra de 35 machines',
             'Prise de poste suite au départ du précédent CTO et de son lead dev',
             'Reprise en main des projets en cours, audit des performances, de la dette technique et de la situation en général',
-            'Mise en place de méthodes agiles (SCRUM)',
+            'Mise en place de la méthode agile SCRUM',
             'Mise en place de l\'intégration continue et des process associés (code reviews, plateforme de QA, tests unitaires & fonctionnels)',
             'Finalisation d\'une refonte de 750g.com vers SF2 entamée par la précédente équipe',
             'Préparation des sites pour les pics de traffic de Noël (traffic doublé, 14&nbsp;000 visiteurs simultanés le 24 décembre)',
-            'Internalisation du hosting de l\'académie, auparavant chez un prestataire d\'hébergement',
+            'Internalisation du hosting de l\'académie, auparavant chez un prestataire',
             'Migrations diverses au fil du temps : PHP 5.6 vers PHP 7, SF2 vers SF3',
             'Définition de l\'architecture applicative & matérielle (en lien avec l\'équipe exploitation)',
-            'Gestion les prestataires, notamment pour le site sous magento ou l\'ancien hosting de l\'académie',
             'Définition et suivi de la roadmap technique',
+            'Gestion les prestataires',
             '<b>Stack technique</b> : PHP, MySQL, Nginx, Apache, Redis, Symfony 2&nbsp;&&nbsp;3, HAProxy, Varnish, Sphinx, RabbitMQ, Behat, GitLab, JIRA', 
 
         ],
@@ -166,16 +166,13 @@ unset($experience);
 $skills = [
     [
         'title' => 'Langages',
-        'detail' => 'Javascript, PHP5, Ruby, HTML5, CSS3, MySql, MongoDB, Bash Shell, C',
-    ],[
-        'title' => 'Environnements',
-        'detail' => 'Symfony2, AngularJS, jQuery, Rails3, node.js, Sass/Less, ExpressJS, inuit.css, bootstrap, MODx',
-    ],[
-        'title' => 'Concepts',
-        'detail' => 'Design patterns, MVC, versioning, CSS pre/post processing, OOCSS, Responsive Web Design, UX, tests utilisateurs, Single Page Application, dependency management, task/builder, NoSql, caching, scaling, SEO, méthodes agiles, expressions régulières, accessibilité/standards, problématiques navigateurs, performance web',
+        'detail' => 'Javascript, PHP, Bash Shell, Ruby, C',
     ],[
         'title' => 'Outils',
-        'detail' => 'Sublime Text, Git, Bower, SVN, composer, casperJS, npm, grunt/gulp, Microsoft Office, Suite Adobe, Vi(m)',
+        'detail' => 'Symfony 2&nbsp;&amp;&nbsp;3, MySql, Redis, HTML5, CSS3, Sass/Less, jQuery, AngularJS, Rails3, node.js, Sublime Text, Git, Bower, Yarn, SVN, composer, casperJS, Behat, npm, grunt/gulp, Microsoft Office, Suite Adobe, Vi(m)',
+    ],[
+        'title' => 'Concepts',
+        'detail' => 'Design patterns, performance frontend & backend, MVC, versioning, CSS pre/post processing, OOCSS, Responsive Web Design, UX, tests utilisateurs, Single Page Application, dependency management, task/builder, NoSql, caching, scaling, SEO, méthodes agiles, expressions régulières, accessibilité/standards, problématiques navigateurs, performance web',
     ],[
         'title' => 'Langues',
         'detail' => 'Anglais (fluent), Allemand (scolaire)',
@@ -190,7 +187,7 @@ unset($skill);
 $formations = [
     [
         'title' => 'Actuellement',
-        'detail' => 'Veille technologique, conférences (Parisweb, ParisJS, dotJS/CSS...)',
+        'detail' => 'Veille technologique, conférences (Forum PHP, Symfony Live, Parisweb, ParisJS, dotJS/CSS...)',
     ], [
         'title' => '2003',
         'detail' => 'DEUST multimedia et réseaux, gestion et réalisation (Université Paris II)',
