@@ -6,12 +6,12 @@
     <title>Alexis faye - CV</title>
     <meta name="description" content="TODO"/>
 
-    
+
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
     <meta http-equiv="cleartype" content="on">
-    
+
 
     <link rel="stylesheet" href="main.css" media="screen, print"/>
 </head>
@@ -25,7 +25,7 @@
                     <div class="layout__item palm-1/1 lap-1/4 2/10">
                         <h1 class="header__name"><span class="header__name-label">Alexis Faye</span></h1>
                         <p class="header__infos">
-                            36 ans | Paris 20e<br/>
+                            37 ans | Paris 20e<br/>
                             alexis.faye@hotmail.fr
                         </p>
                     </div><!--
@@ -43,7 +43,7 @@
 
             </div>
         </header>
-        
+
         <div class="content">
 
             <h2 class="section-title"><span class="section-title__inside">Expérience</span></h2>

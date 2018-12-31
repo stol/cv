@@ -2,7 +2,6 @@
 
 $experiences = [
     [
-        'title' => '2015 / actuellement',
         'start' => "2015-11-01",
         'end' => null,
         'job' => 'Directeur technique',
@@ -10,27 +9,21 @@ $experiences = [
         'link' => 'http://www.750g.com',
         'area' => 'Paris',
         'tasks' => [
-            'Management d\'une équipe de 5 développeurs + 1 administrateur système + 1 intervenant externe',
-            'Gestion de <a href="http://www.750g.com" target="_blank">750g.com</a> : site communautaire, 45 millions PV/mois, dev sur mesure sous symfony',
-            'Gestion de <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> & <a href="https://www.allmychefs.com" target="_blank">allmychefs.com</a> : sites e-commerce en français/anglais, 1.6 million PV/mois, dev sur mesure sous symfony',
-            'Gestion de sites annexes tournant sous magento, wordpress ou PHP natif',
-            'Gestion d\'une infra de 35 machines',
-            'Prise de poste suite au départ du précédent CTO et de son lead dev',
+            'Management et animation d\'une équipe de 7 personnes intervenant sur 3 projets différents',
+            '<a href="http://www.750g.com" target="_blank">750g.com</a> : site communautaire, 45 millions PV/mois',
+            '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a> : site e-commerce, 1.6 million PV/mois',
+            '<a href="https://www.pourdebon.com/" target="_blank">pourdebon.com</a> : place de marché, projet le plus complexe techniquement',
+            'Gestion conjointe avec l\'équipe d\'exploitation d\'une infra comportant une cinquantaine de machines',
             'Reprise en main des projets en cours, audit des performances, de la dette technique et de la situation en général',
-            'Mise en place de la méthode agile SCRUM',
-            'Mise en place de l\'intégration continue et des process associés (code reviews, plateforme de QA, tests unitaires & fonctionnels)',
-            'Finalisation d\'une refonte de 750g.com vers SF2 entamée par la précédente équipe',
-            'Préparation des sites pour les pics de traffic de Noël (traffic doublé, 14&nbsp;000 visiteurs simultanés le 24 décembre)',
-            'Internalisation du hosting de l\'académie, auparavant chez un prestataire',
-            'Migrations diverses au fil du temps : PHP 5.6 vers PHP 7, SF2 vers SF3',
-            'Définition de l\'architecture applicative & matérielle (en lien avec l\'équipe exploitation)',
+            'Mise en place de méthodes agiles (SCRUM), de l\'intégration continue et des process associés (code reviews, plateforme de QA, tests unitaires &amp; fonctionnels)',
+            'Refonte de 750g.com vers symfony (entamée par une équipe précédente)',
+            'Refonte de pourdebon.com de drupal vers symfony',
+            'Préparation des sites pour les pics de traffic de Noël (traffic doublé, 14 000 visiteurs simultanés le 24 décembre)',
             'Définition et suivi de la roadmap technique',
-            'Gestion les prestataires',
-            '<b>Stack technique</b> : PHP, MySQL, Nginx, Apache, Redis, Symfony 2&nbsp;&&nbsp;3, HAProxy, Varnish, Sphinx, RabbitMQ, Behat, GitLab, JIRA', 
-
+            'Divers : gestion de prestas, internalisation d\'hébergement, migrations versions PHP/SF, recrutement',
+            'Stack technique : HAProxy, Varnish, Nginx, Apache, PHP, Redis, sphinx, Symfony, MySql, RabbitMQ, Elasticsearch, Behat, GitLab, JIRA',
         ],
     ],[
-        'title' => '2014 / 2015',
         'start' => "2014-11-01",
         'end' => "2015-11-01",
         'job' => 'Lead Développeur Frontend, R&D et conception',
@@ -47,7 +40,6 @@ $experiences = [
             'Nombreuses contraintes&nbsp;: publicité, performance, UX, SEO, responsive + RTL + multilingue, dialogue inter-pôle',
         ],
     ],[
-        'title' => '2013 / 2014',
         'start' => "2013-10-01",
         'end' => "2014-11-01",
         'job' => 'Lead Développeur Frontend',
@@ -65,7 +57,6 @@ $experiences = [
             'Stack technique&nbsp;: Symfony2, angularJS, Sass, jQuery, bower, grunt, nodeJS, angularsJS, mongodb, mysql',
         ],
     ],[
-        'title' => '2012 / 2013',
         'start' => "2012-09-01",
         'end' => "2013-09-01",
         'job' => 'Lead Développeur Frontend',
@@ -82,7 +73,6 @@ $experiences = [
 
         ],
     ],[
-        'title' => '2011 / 2012',
         'start' => "2011-03-01",
         'end' => "2012-08-01",
         'job' => 'Développeur PHP/JS',
@@ -97,9 +87,6 @@ $experiences = [
             'Lead technique en petite équipe sur divers projets, dont la refonte des pages profil des utilisateurs, les albums photos ou encore la refonte de l\'espace d\'administration',
         ],
     ],[
-
-
-        'title' => '2008 / 2011',
         'start' => "2008-03-01",
         'end' => "2011-02-01",
         'job' => 'Développeur Web',
@@ -113,9 +100,6 @@ $experiences = [
             'Gestion administrative et technique des noms de domaines, configuration des DNS',
         ],
     ],[
-
-
-        'title' => '2006 / 2007',
         'start' => "2006-10-01",
         'end' => "2007-08-31",
         'job' => 'Chargé de Q/A et Opérations Spéciales',
@@ -128,8 +112,6 @@ $experiences = [
 
         ],
     ],[
-
-        'title' => '2003 / 2006',
         'start' => "2003-10-01",
         'end' => "2006-09-01",
         'job' => 'Développeur Junior',
@@ -142,9 +124,6 @@ $experiences = [
             'Suivi fonctionnel et technique d\'opérations interactives (WAP, Audiotel, SMS)',
         ],
     ],[
-
-
-        'title' => '2001 / 2003',
         'start' => "2001-10-01",
         'end' => "2003-09-01",
         'job' => 'Assistant Technique (apprentissage/alternance)',
@@ -169,7 +148,7 @@ $skills = [
         'detail' => 'Javascript, PHP, Bash Shell, Ruby, C',
     ],[
         'title' => 'Outils',
-        'detail' => 'Symfony 2&nbsp;&amp;&nbsp;3, MySql, Redis, HTML5, CSS3, Sass/Less, jQuery, AngularJS, Rails3, node.js, Sublime Text, Git, Bower, Yarn, SVN, composer, casperJS, Behat, npm, grunt/gulp, Microsoft Office, Suite Adobe, Vi(m)',
+        'detail' => 'Symfony, MySql, Redis, Elasticsearch, HTML5, CSS3, Sass/Less, jQuery, AngularJS, Rails3, node.js, Sublime Text, Git, Bower, Yarn, SVN, composer, casperJS, Behat, npm, grunt/gulp, Microsoft Office, Suite Adobe, Vi(m)',
     ],[
         'title' => 'Concepts',
         'detail' => 'Design patterns, performance frontend & backend, MVC, versioning, CSS pre/post processing, OOCSS, Responsive Web Design, UX, tests utilisateurs, Single Page Application, dependency management, task/builder, NoSql, caching, scaling, SEO, méthodes agiles, expressions régulières, accessibilité/standards, problématiques navigateurs, performance web',
@@ -202,22 +181,22 @@ foreach($formations as &$formation){
 }
 unset($formation);
 
-function dateDiff2Str($startParam, $endParam="today") { 
+function dateDiff2Str($startParam, $endParam="today") {
     if (!$endParam){
         $end = "today";
     }
 
     $start = $startParam instanceof DateTime ? $startParam : new DateTime($startParam);
     $end = $endParam instanceof DateTime ? $endParam : new DateTime($endParam);
-    
-    $interval = $end->diff($start); 
+
+    $interval = $end->diff($start);
     $doPlural = function($nb,$str){
         if ($str == "mois"){
             return $str;
         }
         return $nb>=2 ? $str . 's' : $str;
     };
-    
+
     // https://stackoverflow.com/questions/3216482/round-down-to-nearest-half-integer-in-php
     $round = round($interval->m / 12 * 2) / 2;
 
@@ -229,4 +208,4 @@ function dateDiff2Str($startParam, $endParam="today") {
 
     return $nbYears . " " . $doPlural($nbYears, "an");
 
-} 
+}
