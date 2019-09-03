@@ -25,7 +25,7 @@
                     <div class="layout__item palm-1/1 lap-1/4 2/10">
                         <h1 class="header__name"><span class="header__name-label">Alexis Faye</span></h1>
                         <p class="header__infos">
-                            37 ans | Paris 20e<br/>
+                            38 ans | Paris 20e<br/>
                             alexis.faye@hotmail.fr
                         </p>
                     </div><!--
@@ -37,7 +37,7 @@
                         </h2>
                     </div><!--
                  --><div class="layout__item palm-1/1 lap-1/4 1/10">
-                        <img class="header__img" src="photo.jpg"/>
+                        <img class="header__img" src="img/photo-2.jpg"/>
                     </div>
                 </div>
 
