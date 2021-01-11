@@ -117,7 +117,7 @@
 
             <section class="section">
                 <div class="section__inside">
-                    Piano, Guitare, Danse (rock, tango), littérature et cinéma de science fiction, jeux video, développement web
+                    Piano, guitare, danse, botanique, permaculture, science fiction, jeux video, développement web
                 </div>
             </section>
 
