@@ -2,6 +2,14 @@
 
 $experiences = [
     [
+        'start' => "2020-09-01",
+        'end' => null,
+        'job' => 'VP engineering',
+        'company' => 'Webedia',
+        'link' => 'https://fr.webedia-group.com/',
+        'area' => 'Paris',
+        'tasks' => [],
+    ],[
         'start' => "2015-11-01",
         'end' => null,
         'job' => 'Directeur technique',
