@@ -33,7 +33,7 @@
 
                         <h2 class="header__job">
                             <span class="header__job-label">CTO</span>
-                            <span class="header__job-spe">Site à fort traffic / e-commerce</span>
+                            <span class="header__job-spe">Management et performance</span>
                         </h2>
                     </div><!--
                  --><div class="layout__item palm-1/1 lap-1/4 1/10">
@@ -45,6 +45,33 @@
         </header>
 
         <div class="content">
+
+            <h2 class="section-title"><span class="section-title__inside">Recruteurs</span></h2>
+
+            <section class="section section--br-after">
+                <div class="section__inside">
+                    <div class="skill">
+                        <div class="layout">
+                            <div class="layout__item palm-1/1 lap-1/4 2/10">
+                                <div class="skill__title"><?php echo $skill->title ?></div>
+                            </div><!--
+                         --><div class="layout__item palm-1/1 lap-3/4 8/10">
+                                <p>Bonjour, avant de me contacter, merci de prendre note des prérequis suivants. Merci d'avance :)</br></br></p>
+                                <ul  class="exp__tasks">
+                                    <li class="exp__task">Technologie : doit être source du business</li>
+                                    <li class="exp__task">Télétravail : doit être possible</li>
+                                    <li class="exp__task">Sujets : pas de pub ou de e-commerce</li>
+                                    <li class="exp__task">Localisation : quart nord-ouest de Paris</li>
+                                    <li class="exp__task">Équipes : françaises uniquement</li>
+                                    <li class="exp__task">Poste : plutôt managérial</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </section>
 
             <h2 class="section-title"><span class="section-title__inside">Expérience</span></h2>
 
