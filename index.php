@@ -62,7 +62,7 @@
                                     <li class="exp__task">Télétravail : doit être possible</li>
                                     <li class="exp__task">Sujets : pas de pub ou de e-commerce</li>
                                     <li class="exp__task">Localisation : quart nord-ouest de Paris</li>
-                                    <li class="exp__task">Équipes : françaises uniquement</li>
+                                    <li class="exp__task">Équipes : françaises. Pas de near/offshore.</li>
                                     <li class="exp__task">Poste : plutôt managérial</li>
                                 </ul>
                             </div>
