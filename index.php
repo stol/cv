@@ -46,6 +46,7 @@
 
         <div class="content">
 
+            <?php /*
             <h2 class="section-title"><span class="section-title__inside">Recruteurs</span></h2>
 
             <section class="section section--br-after">
@@ -72,6 +73,7 @@
                     
                 </div>
             </section>
+            */php?>
 
             <h2 class="section-title"><span class="section-title__inside">Expérience</span></h2>
 
