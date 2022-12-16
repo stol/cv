@@ -92,7 +92,7 @@
                                 </div><!--
                              --><div class="layout__item palm-1/1 lap-3/4 8/10 ">
                                     <div class="exp__job"><?php echo $experience->job ?></div>
-                                    <?php if $experience->link : ?>
+                                    <?php if ($experience->link) : ?>
                                         <div class="exp__context"> @ <a href="<?php echo $experience->link ?>" class="exp__company"><?php echo $experience->company ?></a>, <?php echo $experience->area ?></div>
                                     <?php endif ?>
                                     <ul class="exp__tasks">
