@@ -2,6 +2,14 @@
 
 $experiences = [
     [
+        'start' => "2022-09-01",
+        'end' => null,
+        'job' => "Création d'entreprise",
+        'company' => null,
+        'link' => null,
+        'area' => 'Paris',
+        'tasks' => [],
+    ], [
         'start' => "2015-11-01",
         'end' => "2022-03-26",
         'job' => 'Directeur technique',
