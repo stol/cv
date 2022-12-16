@@ -3,7 +3,7 @@
 $experiences = [
     [
         'start' => "2015-11-01",
-        'end' => null,
+        'end' => "2022-03-26",
         'job' => 'Directeur technique',
         'company' => 'Webedia (Pôle food & misc)',
         'link' => 'http://www.750g.com',
