@@ -177,8 +177,8 @@ unset($skill);
 
 $formations = [
     [
-        'title' => 'Actuellement',
-        'detail' => 'Veille technologique, conférences (Forum PHP, Symfony Live, Parisweb, ParisJS, dotJS/CSS...)',
+        'title' => '2023',
+        'detail' => 'Construire et conduire un projet entrepreneurial (BGE)',
     ], [
         'title' => '2003',
         'detail' => 'DEUST multimedia et réseaux, gestion et réalisation (Université Paris II)',
