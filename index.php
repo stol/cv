@@ -148,7 +148,7 @@
 
             <section class="section">
                 <div class="section__inside">
-                    Piano, guitare, danse, botanique, permaculture, science fiction, jeux video, développement web
+                    Piano, guitare, danse, permaculture, bricolage, science fiction, jeux video
                 </div>
             </section>
 
