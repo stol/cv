@@ -2,13 +2,22 @@
 
 $experiences = [
     [
-        'start' => "2022-09-01",
+        'start' => "2023-11-11",
         'end' => null,
-        'job' => "Création d'entreprise",
-        'company' => "JAO",
-        'link' => null,
+        'job' => "Coach indépendant pour CTO",
+        'company' => "CTO Assistance",
+        'link' => 'https://www.cto-assistance.fr',
         'area' => 'Paris',
-        'tasks' => [],
+        'tasks' => [
+			"Immersion et entretiens pour comprendre vos défis quotidiens.",
+			"Participation active aux réunions techniques pour une vision globale.",
+			"Optimisation de l'organisation avec des méthodes agiles.",
+			"Conseils technologiques et analyse de projets.",
+			"Construction de roadmap solide en collaboration avec le CTO.",
+			"Savoir communiquer et identifier les risques prioritaires.",
+			"Leadership d'équipe et gestion de projet pragmatique.",
+			"Maintenir une codebase performante et gérer les urgences.",
+        ],
     ],[
         'start' => "2015-11-01",
         'end' => "2022-03-26",
