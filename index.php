@@ -32,8 +32,8 @@
                  --><div class="layout__item palm-1/1 lap-2/4 7/10">
 
                         <h2 class="header__job">
-                            <span class="header__job-label">CTO</span>
-                            <span class="header__job-spe">Management et performance</span>
+                            <span class="header__job-label">Coach freelance pour CTO</span>
+                            <span class="header__job-spe">Mentorat, Conseil, Accompagnement</span>
                         </h2>
                     </div><!--
                  --><div class="layout__item palm-1/1 lap-1/4 1/10">
