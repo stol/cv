@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Alexis faye - CV</title>
-    <meta name="description" content="TODO"/>
+    <meta name="description" content="Alexis faye - CV"/>
 
 
     <meta name="HandheldFriendly" content="True">
@@ -32,8 +32,8 @@
                  --><div class="layout__item palm-1/1 lap-2/4 7/10">
 
                         <h2 class="header__job">
-                            <span class="header__job-label">Coach freelance pour CTO</span>
-                            <span class="header__job-spe">Mentorat, Conseil, Accompagnement</span>
+                            <span class="header__job-label">CTO multi casquettes</span>
+                            <span class="header__job-spe">Coaching, Conseil, Expertise</span>
                         </h2>
                     </div><!--
                  --><div class="layout__item palm-1/1 lap-1/4 1/10">
@@ -148,7 +148,7 @@
 
             <section class="section">
                 <div class="section__inside">
-                    Piano, guitare, danse, permaculture, bricolage, science fiction, jeux video
+                    Piano, guitare, danse, permaculture, rénovation, (géo-)politique, philosophie, science fiction, jeux video
                 </div>
             </section>
 
