@@ -21,7 +21,7 @@ $experiences = [
     ],[
         'start' => "2022-09-01",
         'end' => "2023-09-01",
-        'job' => 'Projets personnels',
+        'job' => 'Formation à l\'entrepreneuriat & projets personnels',
         'area' => 'Paris',
         'tasks' => [],
     ],[

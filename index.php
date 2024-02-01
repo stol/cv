@@ -33,7 +33,7 @@
 
                         <h2 class="header__job">
                             <span class="header__job-label">CTO multi casquettes</span>
-                            <span class="header__job-spe">Coaching, Conseil, Expertise</span>
+                            <span class="header__job-spe">Expertise, Stratégie, Leadership</span>
                         </h2>
                     </div><!--
                  --><div class="layout__item palm-1/1 lap-1/4 1/10">
