@@ -19,10 +19,26 @@ $experiences = [
 			"Maintenir une codebase performante et gérer les urgences.",
         ],
     ],[
+        'start' => "2022-09-01",
+        'end' => "2023-09-01",
+        'job' => 'Projets personnels',
+        'area' => 'Paris',
+        'tasks' => [],
+    ],[
+        'start' => "2022-05-01",
+        'end' => "2022-07-01",
+        'job' => 'CTO',
+        'company' => 'Erold (Ex planet media)',
+        'link' => 'https://www.erold.fr/',
+        'area' => 'Paris',
+        'tasks' => [
+            'Reprise en main des équipes (~ 15 devs) et de la roadmap.',
+        ],
+    ],[
         'start' => "2015-11-01",
         'end' => "2022-03-26",
-        'job' => 'Directeur technique',
-        'company' => 'Webedia (Pôle food & misc)',
+        'job' => 'CTO (pôle food)',
+        'company' => 'Webedia',
         'link' => 'http://www.750g.com',
         'area' => 'Paris',
         'tasks' => [
@@ -223,10 +239,15 @@ function dateDiff2Str($startParam, $endParam="today") {
 
     $nbYears = $interval->y + $round;
 
+    $return = '';
     if ($endParam == null){
-        return "depuis " . $nbYears . " " . $doPlural($nbYears, "an");
+        $return.= 'depuis ';
+    }
+    if ($nbYears > 0) {
+        $return .= $nbYears . " " . $doPlural($nbYears, 'an');
+    } else {
+        $return .= $interval->m . " " . $doPlural($interval->m, 'mois');
     }
 
-    return $nbYears . " " . $doPlural($nbYears, "an");
-
+    return $return;
 }
