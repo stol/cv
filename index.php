@@ -32,7 +32,7 @@
                  --><div class="layout__item palm-1/1 lap-2/4 7/10">
 
                         <h2 class="header__job">
-                            <span class="header__job-label">Engineering manager/CTO</span>
+                            <span class="header__job-label">Engineering manager</span>
                             <span class="header__job-spe">Management & sites à fort trafic</span>
                         </h2>
                     </div><!--
