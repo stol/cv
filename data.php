@@ -2,6 +2,22 @@
 
 $experiences = [
     [
+        'start' => "2024-04-02",
+        'end' => "2024-08-10",
+        'job' => 'Engineering manager',
+        'company' => 'Cliq Digital',
+        'link' => 'https://cliqdigital.com/',
+        'area' => 'Paris/Amsterdam',
+        'tasks' => [
+            'Reprise en main d\'une équipe (~ 15 devs) suite au départ du CTO',
+            'Analyse de l\'activité et ré-organisation en petites équipes dédiées',
+            'Mise en place de méthodologie agile type scrum, build/run et de boards JIRA',
+            'Amélioration de la communication avec la maison mère à Amsterdam',
+            '4 recrutements (1 PO, 3 fronts, 1 back) sur 6 postes ouverts',
+            'Anglais quotidien',
+            '<b>Stack tech</b> : AWS, Symfony, React & next.js'
+        ],
+    ],[
         'start' => "2023-11-11",
         'end' => null,
         'job' => "Coach indépendant pour CTO",
@@ -86,8 +102,8 @@ $experiences = [
         'tasks' => [
             '<a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a>&nbsp;: site développé de zéro, sur le thème de la cuisine des grands chefs.',
             'Architecture et développement de toute la partie frontend du site <a href="https://www.academiedugout.fr" target="_blank">academiedugout.fr</a>, en responsive et mobile first',
-            'Conception du site collègiale avec la directon artistique et le produit',
-            'Développement d\'une webapp de vidéo interractives et responsives, en angular/sf2/mongoDB',
+            'Conception du site collègiale avec la direction artistique et le produit',
+            'Développement d\'une webapp de vidéo interactives et responsives, en angular/sf2/mongoDB',
             'Forte utilisation de méthodologies BEM/OCSS et de Sass pour l\'architecture CSS',
             'Utilisation d\'un gitflow avec feature/fix branches et releases hebdomadaires, sur github',
             'Mise en place de tests fonctionnels automatisés via casperJS',
@@ -105,7 +121,7 @@ $experiences = [
             'Reprise en main et refonte de l\'intégralité de la partie frontend (templating/JS/CSS). Mise en place du preprocesseur Sass.',
             'Adaptation du site en Responsive Web Design',
             'Mise en place d\'un système de marque blanche, permettant de changer l\'apparence et les fonctionnalités du site en fonction de divers partenariats (tf1, eurosport...)',
-            'Mis en place d\'un système de widgets, rendant exportable toute ou partie du site. Ces widgets sont des blocs de fonctionnalités (comme les « embed » youtube, facebook ou autre) affichés sur d\'autres sites. Chaque widget est personnalisable, tant niveau fonctionnalités qu\'apparence',
+            'Mise en place d\'un système de widgets, rendant exportable toute ou partie du site. Ces widgets sont des blocs de fonctionnalités (comme les « embed » youtube, facebook ou autre) affichés sur d\'autres sites. Chaque widget est personnalisable, tant niveau fonctionnalités qu\'apparence',
             'Mise en place de tests fonctionnels automatisés via casperJS',
 
         ],
@@ -133,7 +149,7 @@ $experiences = [
         'tasks' => [
             'Développement d\'intranets, d\'extranets et de sites corporate. Contact principal des clients pour le suivi technique des projets et leur formation aux outils',
             'Développement d\'une application type e-commerce avec le framework Ruby on Rails',
-            'Administration de serveurs LAMP&nbsp;: installation et configuration d\'Apache et ses modules, de MySql ou encore de PHP. Gestion des environnement des dev/recette/prod',
+            'Administration de serveurs LAMP&nbsp;: installation et configuration d\'Apache et ses modules, de MySql ou encore de PHP. Gestion des environnements de dev/recette/prod',
             'Gestion administrative et technique des noms de domaines, configuration des DNS',
         ],
     ],[
@@ -243,7 +259,7 @@ function dateDiff2Str($startParam, $endParam="today") {
     if ($endParam == null){
         $return.= 'depuis ';
     }
-    if ($nbYears > 0) {
+    if ($nbYears >= 1) {
         $return .= $nbYears . " " . $doPlural($nbYears, 'an');
     } else {
         $return .= $interval->m . " " . $doPlural($interval->m, 'mois');
