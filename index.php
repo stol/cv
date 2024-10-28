@@ -46,6 +46,7 @@
 
         <div class="content">
 
+            <?php /*
             <h2 class="section-title"><span class="section-title__inside">Présentation</span></h2>
 
             <section class="section">
@@ -53,6 +54,7 @@
                     Après plus de 20 ans dans la tech', j'ai appris que le principal défi est de trouver le bon compromis entre vitesse et qualité. Passé par le code puis le  management, j'ai développé une méthode pragmatique dont l'objectif est la création d'une roadmap fiable, essentielle tant pour le business que pour l'organisation des équipes. J'introduis l'agilité par l'amélioration continue (ex : rétrospectives), et je me repose sur une communication claire pour éviter les frictions, notamment du côté des priorités. Enfin, l'implication de toutes les équipes favorise à la fois l'innovation et une bonne ambiance de travail. Je reste toujours pragmatique et m'adapte aux organisations existantes.
                 </div>
             </section>
+            */ ?>
 
 
             <h2 class="section-title"><span class="section-title__inside">Expérience</span></h2>
