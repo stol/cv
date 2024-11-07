@@ -4,7 +4,7 @@ $experiences = [
     [
         'start' => "2024-04-02",
         'end' => "2024-08-10",
-        'job' => 'Engineering manager',
+        'job' => 'CTO',
         'company' => 'Cliq Digital',
         'link' => 'https://cliqdigital.com/',
         'area' => 'Paris/Amsterdam',
@@ -35,11 +35,12 @@ $experiences = [
 			"Maintenir une codebase performante et gérer les urgences.",
         ],
     ],[
-        'start' => "2022-09-01",
+        'start' => "2022-05-01",
         'end' => "2023-09-01",
         'job' => 'Formation à l\'entrepreneuriat & projets personnels',
         'area' => 'Paris',
         'tasks' => [],
+/*
     ],[
         'start' => "2022-05-01",
         'end' => "2022-07-01",
@@ -50,6 +51,7 @@ $experiences = [
         'tasks' => [
             'Reprise en main des équipes (~ 15 devs) et de la roadmap.',
         ],
+*/
     ],[
         'start' => "2015-11-01",
         'end' => "2022-03-26",

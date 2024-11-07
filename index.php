@@ -32,7 +32,7 @@
                  --><div class="layout__item palm-1/1 lap-2/4 7/10">
 
                         <h2 class="header__job">
-                            <span class="header__job-label">Engineering manager</span>
+                            <span class="header__job-label">CTO</span>
                             <span class="header__job-spe">Management & sites à fort trafic</span>
                         </h2>
                     </div><!--
@@ -51,7 +51,7 @@
 
             <section class="section">
                 <div class="section__inside">
-                    Après plus de 20 ans dans la tech', j'ai appris que le principal défi est de trouver le bon compromis entre vitesse et qualité. Passé par le code puis le  management, j'ai développé une méthode pragmatique dont l'objectif est la création d'une roadmap fiable, essentielle tant pour le business que pour l'organisation des équipes. J'introduis l'agilité par l'amélioration continue (ex : rétrospectives), et je me repose sur une communication claire pour éviter les frictions, notamment du côté des priorités. Enfin, l'implication de toutes les équipes favorise à la fois l'innovation et une bonne ambiance de travail. Je reste toujours pragmatique et m'adapte aux organisations existantes.
+                    Fort de plus de 20 années la tech', j'ai appris que le principal défi est de trouver le bon compromis entre vitesse et qualité. Passé par le code puis le  management, j'ai développé une méthode pragmatique dont l'objectif est la création d'une roadmap fiable, essentielle tant pour le business que pour l'organisation des équipes. J'introduis l'agilité par l'amélioration continue (ex : rétrospectives), et je me repose sur une communication claire pour éviter les frictions, notamment du côté des priorités. Enfin, l'implication de toutes les équipes favorise à la fois l'innovation et une bonne ambiance de travail. Je reste toujours pragmatique et m'adapte aux organisations existantes.
                 </div>
             </section>
             */ ?>
