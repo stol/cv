@@ -1507,6 +1507,70 @@ a {
     @media print {
       .header__job-spe {
         font-size: 16px; } }
+
+.header__img-cont {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: radial-gradient(circle, #00d4b3, #3b5998); /* Dégradé */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    margin-top: -9px;
+    margin-bottom: -9px;
+    border: 1px solid #fff;
+}
+
+    @media screen and (min-width: 64em) {
+      .header__img-cont {
+        position: relative;
+        top: 0;
+        right: 0;
+      }
+    }
+    @media print {
+      .header__img-cont{
+        width: 87px;
+        height: 87px;
+      } 
+    }
+
+.header__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Par défaut, cacher le numéro sur écran */
+.phone {
+    display: none;
+}
+.phone span{
+    display: none;
+}
+
+/* Afficher uniquement en mode impression */
+@media print {
+    .phone {
+        display: inline;
+    }
+}
+
+/* Protection anti-crawler en insérant du contenu via CSS */
+.phone::before {
+    content: "+33 "; /* Préfixe ajouté en CSS */
+}
+
+.phone::after {
+    content: " 19 56"; /* Derniers chiffres ajoutés en CSS */
+}
+
+        /*
   .header__img {
     width: 85px;
     height: 85px;
@@ -1524,7 +1588,7 @@ a {
         top: 0;
         right: 0;
         float: right; } }
-
+*/
 .section-title {
   margin-top: 12px; }
   @media print {
@@ -1542,6 +1606,18 @@ a {
     @media print {
       .section-title__inside {
         font-size: 13px; } }
+  .section__inside--intro{
+    color: #3b5998;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  @media print {
+    .section__inside--intro {
+      margin-top: 10px;
+      font-size: 10px; } 
+  }
+
 
 @media print {
   .section--br-after {
@@ -1561,6 +1637,45 @@ a {
   display: inline;
   color: #888888;
   font-weight: bold; }
+.exp__intro {
+  color: #3b5998;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+  quotes: "❝\00A0" "\00A0❞";
+  font-style: italic;
+}
+  @media print {
+    .exp__intro {
+      margin: 5px 0;
+      font-size: 9px; } 
+  }
+
+.exp__intro::before {
+    content: open-quote;
+}
+.exp__intro::after {
+    content: close-quote;
+}
+
+.exp__datel{
+  color: #666;
+  font-style: italic;
+  font-size: 12px;
+  display: block;
+}
+.exp__datel:first-letter{
+  text-transform: uppercase
+}
+
+  @media print {
+    .exp__datel {
+      font-size: 10px;
+     } 
+  }
+
+
+
 .exp__company {
   text-transform: uppercase; }
 .exp__tasks {
