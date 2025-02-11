@@ -23,7 +23,7 @@ $experiences = [
         'job' => 'Pause professionnelle, projets personnels et entrepreneuriat',
         'company' => "CTO Assistance",
         'area' => 'Paris',
-        'intro' => "Souhaitant me consacrer à des projets personnels et réorienter mon activité professionnelle, j'ai suivi la formation certifiante BGE « Construire et conduire un projet entrepreneurial », avec comme objectif le coaching de CTO. Expérience non concluante. Ci-dessous quelques exemples de problématiques.",
+        'intro' => "Souhaitant me consacrer à ma famille, à des projets personnels et réorienter mon activité professionnelle, j'ai suivi la formation certifiante BGE « Construire et conduire un projet entrepreneurial », avec comme objectif le coaching de CTO. Expérience non concluante. Ci-dessous quelques exemples de problématiques.",
         'tasks' => [
             "Immersion et entretiens pour comprendre vos défis quotidiens.",
             "Participation active aux réunions techniques pour une vision globale.",
