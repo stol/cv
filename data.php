@@ -81,6 +81,7 @@ $experiences = [
         'company' => 'Webedia (Pôle glamour)',
         'link' => 'https://www.academiedugout.fr',
         'area' => 'Paris',
+        'intro' => "Détaché des équipes techniques, j'avais pour mission d'introduire de l'innovation au sein des équipes techniques.",
         'tasks' => [
             'Interventions et/ou refontes HTML 5 responsive des différents sites du pôle féminin&nbsp;: <a href="http://www.purepeople.com/" target="_blank">Purepeople</a>, <a href="http://www.puretrend.com/" target="_blank">Puretrend</a>, <a href="http://www.purebreak.com/" target="_blank">Purebreak</a>, <a href="http://www.ozap.com/" target="_blank">Puremedia</a>, <a href="http://www.terrafemina.com/" target="_blank">Terrafemina</a>, <a href="http://www.chartsinfrance.net/" target="_blank">Purecharts</a>, <a href="http://www.exponaute.com/" target="_blank">Exponaute</a>',
             'Réalisation de prototypes fonctionnels, artistiques ou techniques',
