@@ -53,7 +53,7 @@
 
             <section class="section">
                 <div class="section__inside section__inside--intro">
-                    En plus de 20 années passées dans la tech, j'ai travaillé sur des sujets variés (sites à fort trafic, e-commerce, intranets, réseau social…), dont certains dans un contexte internationnal. Passé du code au management, j'ai développé une méthode pragmatique dont l'objectif est la création d'une roadmap fiable, essentielle tant pour le business que pour l'organisation des équipes. Je privilégie l'implication des équipes pour favoriser à la fois l'innovation et une bonne ambiance de travail. Enfin, je reste toujours pragmatique, pensant en termes de problèmes et non en termes de personnes, et m'adapte aux organisations existantes.
+                    En plus de 20 années passées dans la tech, j'ai travaillé sur des sujets variés (sites à fort trafic, e-commerce, intranets, réseau social…), dont certains dans un contexte international. Passé du code au management, j'ai développé une méthode pragmatique dont l'objectif est la création d'une roadmap fiable, essentielle tant pour le business que pour l'organisation des équipes. Je privilégie l'implication des équipes pour favoriser à la fois l'innovation et une bonne ambiance de travail. Enfin, je reste toujours pragmatique, pensant en termes de problèmes et non en termes de personnes, et m'adapte aux organisations existantes.
                 </div>
             </section>
 
